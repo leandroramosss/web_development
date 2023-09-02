@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super mini market</title>
+</head>
+<body>
+    <div id="formulary">
+        <h1>Client register</h1>
+
+        <form action="" method="post" name="client">
+
+            Name
+            </p><input type="text" name="name" placeholder="Altair" size="40" maxlength="50"></p>
+        
+            Phone number
+            <p><input type="text" name="phone" placeholder="(11) 99999-99999" size="40" maxlength="13"></p>
+
+            Address
+            <p><input type="text" name="address" placeholder="rua triple x" size="40" maxlength="50"></p>
+
+            Email
+            <p><input type="email" name="email" placeholder="something@provider.com" size="40" maxlength="40"></p>
+
+            Password
+            <p><input type="text" name="password" placeholder="your password" size="40" maxlength="13"></p>
+
+            Confirm password
+            <p><input type="text" name="confirmPassword" placeholder="confirm password" size="40" maxlength="13"></p>
+
+            <p><label for="data">Birthdate</label>
+
+            <input type="date" name="birthdate" id="data"></p>
+            <p>
+                <label for="region">What are your region</label>
+                    <select name="region" id="region">
+                    <option value="">------</option>
+                    <option value="North">North</option>
+                    <option value="South">South</option>
+                    <option value="East">East</option>
+                    <option value="West">West</option>
+                </select>
+            </p>
+
+            <label for="food">Which products do you buy the most?</label>
+            <p><input type="checkbox" name="food" value="food"> Food</p>
+            <p><input type="checkbox" name="cleaning" value="cleaning"> Cleaning</p>
+            <p><input type="checkbox" name="electronics" value="electronics"> Electronics</p>
+
+            <p>Which payment method you used the most?</p>
+            <input type="radio" name="payment" value="Credit">Credit
+            <input type="radio" name="payment" value="Debit">Debit
+            <input type="radio" name="payment" value="Pix">Pix
+
+            <p>
+                <label for="observation"> Observation <br>
+                    <textarea name="observation" id="observation" cols="40" rows="10">
+
+                    </textarea>
+                </label>
+            </p>
+
+            <p>
+                <input type="submit" value="submit" name="submit">
+                <input type="reset" value="clear" name="clear">
+            </p>
+        </form>
+    </div>
+</form>
+</body>
+</html>
