@@ -1,0 +1,18 @@
+body {
+    background-color: aliceblue;
+}
+
+#formulary {
+    width: 75%;
+    height: 1000px;
+    background-color: rgb(90, 163, 71);
+    margin: auto;
+    border-radius: 30px;
+    padding: 40px;
+    padding-top: 40px;
+}
+
+input {
+    border-radius: 30px;
+    border-color: white;
+}
