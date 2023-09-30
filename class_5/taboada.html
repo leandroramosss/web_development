@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function taboada(){
+    
+            var numero = document.getElementById("numero").value;
+    
+            var taboada = "";
+    
+            for(i=0; i <=10; i++){
+                taboada = taboada+numero + " X " + i + " = " + i*numero + "<br>";
+            }
+
+            resultado.innerHTML = taboada;
+        }
+    </script>
+</head>
+<body>
+    <div id="resultado">Escolha um numero</div>
+
+    <div id="form">
+        <input type="number" id="numero" value="">
+        <button id="gerar" onclick="taboada()">gerar</button>
+    </div>
+</body>
+</html>
